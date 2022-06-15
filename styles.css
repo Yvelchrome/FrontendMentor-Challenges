@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Outfit-regular";
+  src: url("fonts/Outfit-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Outfit-bold";
+  src: url("fonts/Outfit-Bold.ttf") format("truetype");
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  font-size: 60%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 32rem;
+  padding: 1.6rem;
+  border-radius: 2rem;
+  text-align: center;
+  box-shadow: 0px 25px 50px hsla(0, 0%, 0%, 0.048);
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-qrcode {
+  max-width: 100%;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+
+.card-header {
+  font-family: "Outfit-bold", sans-serif;
+  font-size: 2.2rem;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 1.6rem;
+}
+
+.card-text {
+  font-family: "Outfit-regular", sans-serif;
+  max-width: 90%;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  margin-bottom: 2.5rem;
+}
+
+.attribution {
+  font-family: "Outfit-regular", sans-serif;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
