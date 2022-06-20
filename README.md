@@ -12,3 +12,15 @@ You can view the different projects by navigating through the different branchs 
 
 I found this website while researching additional sources than my school to learn how to code, code better.<br/>
 It provides me with good projects to exercise, improve my coding skills and knowledge.
+
+# What I've done so far :
+
+**QR code component**
+
+- Status : Completed
+- Last updated : 15/06/2022
+
+**NFT preview card component**
+
+- Status : Completed
+- Last updated : 20/06/2022
