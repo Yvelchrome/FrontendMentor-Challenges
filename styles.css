@@ -85,14 +85,17 @@ body {
 .nft-name {
   font-family: "Outfit-semibold", sans-serif;
   font-size: 1.3rem;
-  color: var(--white);
   padding-top: var(--padding);
   padding-bottom: var(--padding);
 }
 
-.nft-name:hover {
+.nft-name a {
+  color: var(--white);
+  text-decoration: inherit;
+}
+
+.nft-name a:hover {
   color: var(--cyan);
-  cursor: pointer;
 }
 
 .nft-description {
