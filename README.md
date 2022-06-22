@@ -50,7 +50,7 @@ The first thing are the CSS custom properties (variables), I'll make sure to use
 }
 ```
 
-The second one is the CSS "hover" pseudo-class, I used it to change the color of certain element of the component but also add a overlay to the main image (which I struggled to do 😅​)
+The second one is the CSS "hover" pseudo-class, I used it to change the color of certain element of the component but also add an overlay to the main image (which I struggled to do 😅​)
 
 ```css
 .overlay {
@@ -77,7 +77,7 @@ The second one is the CSS "hover" pseudo-class, I used it to change the color of
 }
 ```
 
-Those are the ressources from the MDN Web Docs :
+Those are the resources from the MDN Web Docs :
 
 - [CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
 - [CSS hover pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover)
@@ -100,12 +100,12 @@ Type "&ensp" to add 2 spaces.
 Type "&emsp" to add 4 spaces."
 ```
 
-I used it for exemple to separate my paragraph element from the anchor element here :
+I used it for example to separate my paragraph element from the anchor element here :
 
 ```html
 <div class="nft-creator">
   <img src="./images/image-avatar.png" alt="creator avatar" />
-  <p>Creation of&nbsp</p>
+  <p>Creation of&nbsp;</p>
   <a href="#">Jules Wyvern</a>
 </div>
 ```
