@@ -43,7 +43,7 @@ I would say that 1 learning I got from this project is the transform property
 ```
 
 <br/>
-This is the ressources from the MDN Web Docs that helped me :
+This is the resources from the MDN Web Docs that helped me :
 
 - [transform](https://developer.mozilla.org/fr/docs/Web/CSS/transform) - This helped me understand how to properly use :
 
