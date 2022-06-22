@@ -6,7 +6,7 @@ This is a collection of the different (free) challenges [Frontend Mentor](https:
 
 ## Navigate
 
-You can view the different projects by navigating through the different branchs of this repository
+You can view the different projects by navigating through the different branches of this repository
 
 ## Why ?
 
@@ -18,9 +18,9 @@ It provides me with good projects to exercise, improve my coding skills and know
 **QR code component**
 
 - Status : Completed
-- Last updated : 15/06/2022
+- Last updated : 22/06/2022
 
 **NFT preview card component**
 
 - Status : Completed
-- Last updated : 20/06/2022
+- Last updated : 22/06/2022
