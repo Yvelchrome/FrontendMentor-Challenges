@@ -24,6 +24,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - Solution URL : https://www.frontendmentor.io/solutions/qr-code-component-tIcjhEjdk8
 - Live Site URL : https://qrcode-yvelchrome.netlify.app
+  <br/>[![Netlify Status](https://api.netlify.com/api/v1/badges/5688a75f-ff67-4bcc-aa77-db91886477f1/deploy-status)](https://app.netlify.com/sites/qrcode-yvelchrome/deploys)
 
 ## My process
 
