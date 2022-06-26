@@ -24,6 +24,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 - Solution URL : https://www.frontendmentor.io/solutions/nft-preview-card-component-cyWKImYwwN
 - Live Site URL : https://nft-card-yvelchrome.netlify.app
+  <br/>[![Netlify Status](https://api.netlify.com/api/v1/badges/6abebaaf-d731-4f59-85b8-3c032826d93c/deploy-status)](https://app.netlify.com/sites/nft-card-yvelchrome/deploys)
 
 ## My process
 
