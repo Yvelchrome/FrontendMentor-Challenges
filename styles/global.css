@@ -24,15 +24,15 @@ h1 {
 h2 {
   font-family: "Fraunces", sans-serif;
   font-weight: 700;
-  font-size: 2rem;
-  line-height: 2.4rem;
+  font-size: 1.8rem;
+  line-height: 1.98rem;
 }
 
 p {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 0.875rem;
-  line-height: 1.05rem;
+  line-height: 1.3125rem;
 }
 
 html {

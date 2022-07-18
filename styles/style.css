@@ -24,15 +24,15 @@ h1 {
 h2 {
   font-family: "Fraunces", sans-serif;
   font-weight: 700;
-  font-size: 2rem;
-  line-height: 2.4rem;
+  font-size: 1.8rem;
+  line-height: 1.98rem;
 }
 
 p {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 0.875rem;
-  line-height: 1.05rem;
+  line-height: 1.3125rem;
 }
 
 html {
@@ -125,7 +125,7 @@ body,
   .card {
     min-height: 90%;
     max-height: 100%;
-    width: 90%;
+    width: 95%;
     grid-template-columns: 1fr;
     grid-template-rows: 18.75rem 1fr;
   }
@@ -136,6 +136,7 @@ body,
     width: 100%;
   }
   .card__information {
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
