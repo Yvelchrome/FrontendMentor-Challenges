@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 500;
+  src: url("../assets/fonts/Montserrat-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  src: url("../assets/fonts/Montserrat-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Fraunces";
+  font-weight: 700;
+  src: url("../assets/fonts/Fraunces-Bold.ttf") format("truetype");
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 0.8rem;
+  letter-spacing: 0.4rem;
+  line-height: 0.96rem;
+}
+
+h2 {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.05rem;
+}
+
+html {
+  height: 100vh;
+  background-color: hsl(30deg, 38%, 92%);
+}
+
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=global.css.map */
