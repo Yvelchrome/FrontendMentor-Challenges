@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is a solution to the Product preview card component challenge on Frontend Mentor."
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles/style.scss" />
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+
+  <body>
+    <main class="card">
+      <div>
+        <img
+          src="./images/image-product-desktop.jpg"
+          alt="product image"
+          class="card__img"
+        />
+      </div>
+      <div class="card__information">
+        <h1 class="card__information__category">PERFUME</h1>
+        <h2 class="card__information__name">Gabrielle Essence Eau De Parfum</h2>
+        <p class="card__information__description">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div></div>
+        <div class="card__information__price">
+          <span class="card__information__price--price">$149.99</span>
+          <span class="card__information__price--strikethrough-price"
+            >$169.99</span
+          >
+        </div>
+        <button class="card__information__add-cart">
+          <img
+            class="card__information__add-cart--icon"
+            src="./images/icon-cart.svg"
+            alt=""
+          />
+          <span class="card__information__add-cart--text">Add to Cart</span>
+        </button>
+      </div>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/Yvelchrome">Yvelchrome</a>.
+      </div>
+    </footer>
+  </body>
+</html>
