@@ -88,3 +88,15 @@
     }
   }
 }
+
+.attribution {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  text-align: center;
+  color: $dark-cyan;
+}
+
+.attribution a {
+  color: $dark-cyan-hover;
+}
