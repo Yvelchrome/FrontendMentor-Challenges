@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  src: url("../assets/fonts/Overpass-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  src: url("../assets/fonts/Overpass-Bold.ttf") format("truetype");
+}
+h1 {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  height: 1.8rem;
+  line-height: 2.16rem;
+}
+
+p {
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  font-size: 0.938rem;
+  line-height: 1.1256rem;
+}
+
+button {
+  font-family: "Overpass", sans-serif;
+  font-size: 1.063rem;
+  height: 1.063rem;
+  line-height: 1.2756rem;
+}
+
+html {
+  height: 100vh;
+  background-color: hsl(216deg, 12%, 8%);
+}
+
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=global.css.map */
