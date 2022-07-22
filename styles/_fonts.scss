@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  src: url("../assets/fonts/Overpass-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  src: url("../assets/fonts/Overpass-Bold.ttf") format("truetype");
+}
+
+@mixin h1 {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  height: 1.8rem;
+  line-height: calc(1.8rem * 1.2);
+}
+
+@mixin p {
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  font-size: 0.938rem;
+  line-height: calc(0.938rem * 1.2);
+}
+
+@mixin button {
+  font-family: "Overpass", sans-serif;
+  font-size: 1.063rem;
+  height: 1.063rem;
+  line-height: calc(1.063rem * 1.2);
+}
+
+h1 {
+  @include h1;
+}
+
+p {
+  @include p;
+}
+
+button {
+  @include button;
+}
