@@ -1,41 +1,44 @@
 ![Yvelchrome x Frontend Mentor](https://user-images.githubusercontent.com/55931217/173252483-facf776d-ac95-455f-9933-98dd79c35e41.png)
 
-# Frontend Mentor Challenges
+## In Progress...
 
-This is a collection of the different (free) challenges [Frontend Mentor](https://www.frontendmentor.io/home) is providing that I'm currently working on or that I completed.
+# Frontend Mentor - Interactive rating component component
 
-## Navigate
+This is a solution to the [interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI/hub/interactive-rating-component-SrOguSHUp0).
 
-You can view the different projects by navigating through the different branches of this repository
+## Table of contents
 
-## Why ?
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Me!](#me)
 
-I found this website while researching additional sources than my school to learn how to code, code better.<br/>
-It provides me with good projects to exercise, improve my coding skills and knowledge.
+## Overview
 
-# What I've done so far :
+### Screenshots
 
-**QR code component**
+![](https://user-images.githubusercontent.com/55931217/180451399-6af56bea-00d8-4a9a-92d4-01a9e5760f0e.png)
 
-- Status : Completed
-- Last updated : 22/06/2022
+### Links
 
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+- Solution URL :
+- Live Site URL : https://interactive-rating-yvelchrome.netlify.app
 
-**NFT preview card component**
+## My process
 
-- Status : Completed
-- Last updated : 22/06/2022
-
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-**Product preview card component**
-
-- Status : Completed
-- Last updated : 18/07/2022
+### Built with
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![SCSS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![SCSS](https://img.shields.io/badge/Scss-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-FFD700?style=for-the-badge&logo=javascript&logoColor=white)
+
+### What I learned
+
+## Me!
+
+- Frontend Mentor - [@yvelchrome](https://www.frontendmentor.io/profile/yvelchrome)
+- LinkedIn - [@Steven Godin](https://www.linkedin.com/in/steven-godin/)
