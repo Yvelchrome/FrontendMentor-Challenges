@@ -1,0 +1,118 @@
+@import "global";
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 430px;
+  border-radius: 1rem;
+  background-color: $card-grey;
+  padding: 35px;
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background-color: $container-grey;
+    border-radius: 50%;
+  }
+  &__title {
+    color: $white;
+  }
+  &__description {
+    color: $light-grey;
+  }
+  &__rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    &__container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      background-color: $container-grey;
+      border-radius: 50%;
+      &--button {
+        font-weight: 400;
+        color: $light-grey;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        &.active {
+          background-color: $medium-grey;
+          color: $white;
+        }
+      }
+      &:hover {
+        background-color: $orange;
+        button {
+          color: $white;
+        }
+      }
+    }
+  }
+  &__submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $orange;
+    border-radius: 25px;
+    height: 45px;
+    cursor: pointer;
+    &--button {
+      font-weight: 700;
+      letter-spacing: 3px;
+      color: $white;
+    }
+    &:hover {
+      background-color: $white;
+      button {
+        color: $orange;
+      }
+    }
+  }
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.attribution {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  text-align: center;
+  color: $medium-grey;
+}
+
+.attribution a {
+  color: $light-grey;
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    max-width: 90%;
+    padding: 20px;
+    &__rating {
+      gap: 10px;
+      &__container {
+        width: 45px;
+        height: 45px;
+        &--button {
+          height: 45px;
+          width: 45px;
+        }
+      }
+    }
+  }
+}
