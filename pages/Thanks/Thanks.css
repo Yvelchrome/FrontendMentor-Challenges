@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  src: url("../assets/fonts/Overpass-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  src: url("../assets/fonts/Overpass-Bold.ttf") format("truetype");
+}
+h1 {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  height: 1.8rem;
+  line-height: 2.16rem;
+}
+
+p {
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  font-size: 0.938rem;
+  line-height: 1.5008rem;
+}
+
+button {
+  font-family: "Overpass", sans-serif;
+  font-size: 1.063rem;
+  height: 1.063rem;
+  line-height: 1.2756rem;
+}
+
+html {
+  height: 100vh;
+  background-color: hsl(216deg, 12%, 8%);
+}
+
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 420px;
+  width: 430px;
+  border-radius: 1rem;
+  background-color: hsl(214deg, 21%, 13%);
+  padding: 45px;
+}
+.card__image {
+  align-self: center;
+  width: 50%;
+  padding-bottom: 15px;
+}
+.card__container {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 30px;
+  background-color: rgba(124, 135, 152, 0.1);
+  border-radius: 25px;
+}
+.card__container .rating {
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  color: hsl(25deg, 97%, 53%);
+  height: 15px;
+}
+.card__title {
+  color: hsl(0deg, 0%, 100%);
+  text-align: center;
+}
+.card__description {
+  color: hsl(217deg, 12%, 63%);
+  text-align: center;
+}
+
+.attribution {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  text-align: center;
+  color: hsl(216deg, 12%, 54%);
+}
+
+.attribution a {
+  color: hsl(217deg, 12%, 63%);
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    justify-content: space-between;
+    gap: 20px;
+    height: 380px;
+    max-width: 95%;
+    padding: 30px;
+  }
+  .card__image {
+    padding-bottom: 0;
+  }
+}/*# sourceMappingURL=Thanks.css.map */
