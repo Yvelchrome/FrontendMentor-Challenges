@@ -42,8 +42,8 @@ It provides me with good projects to exercise, improve my coding skills and know
 
 **Interactive rating component**
 
-- Status : In Progress
-- Last updated : 22/07/2022
+- Status : Completed
+- Last updated : 23/07/2022
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
