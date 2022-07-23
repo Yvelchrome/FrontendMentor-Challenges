@@ -1,0 +1,70 @@
+@import "../../styles/global.scss";
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 420px;
+  width: 430px;
+  border-radius: 1rem;
+  background-color: $card-grey;
+  padding: 45px;
+  &__image {
+    align-self: center;
+    width: 50%;
+    padding-bottom: 15px;
+  }
+  &__container {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 30px;
+    background-color: $container-grey;
+    border-radius: 25px;
+    .rating {
+      font-family: "Overpass", sans-serif;
+      font-weight: 400;
+      color: $orange;
+      height: 15px;
+    }
+  }
+  &__title {
+    color: $white;
+    text-align: center;
+  }
+  &__description {
+    color: $light-grey;
+    text-align: center;
+  }
+}
+
+.attribution {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  text-align: center;
+  color: $medium-grey;
+}
+
+.attribution a {
+  color: $light-grey;
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    justify-content: space-between;
+    gap: 20px;
+    height: 380px;
+    max-width: 95%;
+    padding: 30px;
+    &__image {
+      padding-bottom: 0;
+    }
+  }
+}
