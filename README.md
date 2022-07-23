@@ -3,11 +3,6 @@
 # Frontend Mentor - Product preview card component
 
 This is a solution to the [product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).
-<br/><br/>Run the following command if you download/clone the project to install the dependencies:
-
-```
-npm install
-```
 
 ## Table of contents
 
@@ -46,15 +41,7 @@ In this challenge I mostly learned 3 things.
 <br/><br/>
 The first thing is the BEM methodology, I find it a very useful, simple naming convention that makes the code easier to read and understand, easier to work with and more explicit.
 <br/><br/>
-The second thing is the use of SCSS, overall, it made the project so much more enjoyable to make thanks to, for example, the nesting combined with the BEM methodology, the creation of variables, different rules like:
-
-```scss
-@import;
-@mixin;
-@include;
-```
-
-to combine multiple stylesheets together...
+The second thing is the use of SCSS, overall, it made the project so much more enjoyable to make thanks to, for example, the nesting combined with the BEM methodology, the creation of variables, different rules like `@import | @mixin | @include` to combine multiple stylesheets together...
 
 <br/>
 The third thing is the use of the `@media` query, I used it to make the product preview card responsive for both desktop and mobile with a different layout.
