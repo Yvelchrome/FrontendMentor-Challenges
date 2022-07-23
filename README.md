@@ -1,7 +1,5 @@
 ![Yvelchrome x Frontend Mentor](https://user-images.githubusercontent.com/55931217/173252483-facf776d-ac95-455f-9933-98dd79c35e41.png)
 
-## In Progress...
-
 # Frontend Mentor - Interactive rating component
 
 This is a solution to the [interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
