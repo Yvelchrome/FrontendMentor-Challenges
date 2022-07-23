@@ -26,6 +26,8 @@ This is a solution to the [interactive rating component challenge on Frontend Me
 
 - Solution URL : https://www.frontendmentor.io/solutions/interactive-rating-component-vX5EufF2mC
 - Live Site URL : https://interactive-rating-yvelchrome.netlify.app
+  <br/>
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/25b62383-3a8d-405b-bc9d-70c35f746e5d/deploy-status)](https://app.netlify.com/sites/interactive-rating-yvelchrome/deploys)
 
 ## My process
 
