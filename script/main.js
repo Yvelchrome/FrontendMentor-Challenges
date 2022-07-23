@@ -8,5 +8,7 @@ document.addEventListener("click", function (evt) {
       button.classList.remove("active");
     });
     evt.target.classList.add("active");
+    value = evt.target.value;
+    localStorage.setItem("rating", value);
   }
 });
