@@ -1,0 +1,82 @@
+@import "global";
+
+.card {
+  display: flex;
+  height: 60%;
+  width: 51%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 0.6rem;
+  overflow: hidden;
+  div:nth-child(1) {
+    background-color: $bright-orange;
+  }
+  div:nth-child(2) {
+    background-color: $dark-cyan;
+  }
+  div:nth-child(3) {
+    background-color: $very-dark-cyan;
+  }
+  &__categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3.438rem;
+    &__icon {
+      height: auto;
+      width: 4.75rem;
+    }
+    &__title {
+      color: $very-light-gray;
+    }
+    &__description {
+      color: $paragraph;
+    }
+    &__button {
+      text-align: left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 3.125rem;
+      width: 75%;
+      border-radius: 25px;
+      margin-top: 3.125rem;
+      background: none;
+      border: none;
+      outline: none;
+      background-color: $very-light-gray;
+      mix-blend-mode: screen;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: transparent;
+      color: $very-light-gray;
+      outline: 2px solid $very-light-gray;
+    }
+  }
+}
+
+@media screen and (width: 1440px) {
+  .card {
+    width: 66%;
+  }
+}
+
+@media screen and (width: 375px) {
+  .card {
+    margin-top: 450px;
+    padding-bottom: 40px;
+    flex-direction: column;
+    height: fit-content;
+    width: 85%;
+    &__categories {
+      padding: 2.813rem;
+      gap: 25px;
+      &__button {
+        margin-top: 0;
+      }
+    }
+  }
+}
