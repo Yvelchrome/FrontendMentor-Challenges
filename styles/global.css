@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "LexendDeca";
+  font-weight: 400;
+  src: url("../assets/fonts/LexendDeca-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "BigShouldersDisplay";
+  font-weight: 700;
+  src: url("../assets/fonts/BigShouldersDisplay-Bold.ttf") format("truetype");
+}
+h1 {
+  font-family: "BigShouldersDisplay", sans-serif;
+  font-weight: 700;
+  font-size: 2.625rem;
+}
+
+p {
+  font-family: "LexendDeca", sans-serif;
+  font-weight: 400;
+  font-size: 0.938rem;
+  line-height: 1.876rem;
+}
+
+button {
+  font-family: "LexendDeca", sans-serif;
+  font-weight: 400;
+  font-size: 1.063rem;
+}
+
+html {
+  height: 100vh;
+  background-color: hsl(0deg, 0%, 95%);
+}
+
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  text-align: center;
+  color: hsl(179deg, 100%, 13%);
+}
+.attribution a {
+  color: hsl(184deg, 100%, 22%);
+}/*# sourceMappingURL=global.css.map */
