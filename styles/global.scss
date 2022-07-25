@@ -1,0 +1,30 @@
+@import "colors";
+@import "fonts";
+
+html {
+  height: 100vh;
+  background-color: $very-light-gray;
+}
+
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  text-align: center;
+  color: $very-dark-cyan;
+  a {
+    color: $dark-cyan;
+  }
+}

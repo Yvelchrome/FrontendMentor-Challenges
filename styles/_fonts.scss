@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "LexendDeca";
+  font-weight: 400;
+  src: url("../assets/fonts/LexendDeca-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "BigShouldersDisplay";
+  font-weight: 700;
+  src: url("../assets/fonts/BigShouldersDisplay-Bold.ttf") format("truetype");
+}
+
+@mixin h1 {
+  font-family: "BigShouldersDisplay", sans-serif;
+  font-weight: 700;
+  font-size: 2.625rem;
+}
+
+@mixin p {
+  font-family: "LexendDeca", sans-serif;
+  font-weight: 400;
+  font-size: 0.938rem;
+  line-height: calc(0.938rem * 2);
+}
+
+@mixin button {
+  font-family: "LexendDeca", sans-serif;
+  font-weight: 400;
+  font-size: 1.063rem;
+}
+
+h1 {
+  @include h1;
+}
+
+p {
+  @include p;
+}
+
+button {
+  @include button;
+}
