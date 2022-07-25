@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "LexendDeca";
+  font-weight: 400;
+  src: url("../assets/fonts/LexendDeca-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "BigShouldersDisplay";
+  font-weight: 700;
+  src: url("../assets/fonts/BigShouldersDisplay-Bold.ttf") format("truetype");
+}
+h1 {
+  font-family: "BigShouldersDisplay", sans-serif;
+  font-weight: 700;
+  font-size: 2.625rem;
+}
+
+p {
+  font-family: "LexendDeca", sans-serif;
+  font-weight: 400;
+  font-size: 0.938rem;
+  line-height: 1.876rem;
+}
+
+button {
+  font-family: "LexendDeca", sans-serif;
+  font-weight: 400;
+  font-size: 1.063rem;
+}
+
+html {
+  height: 100vh;
+  background-color: hsl(0deg, 0%, 95%);
+}
+
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  text-align: center;
+  color: hsl(179deg, 100%, 13%);
+}
+.attribution a {
+  color: hsl(184deg, 100%, 22%);
+}
+
+.card {
+  display: flex;
+  height: 60%;
+  width: 51%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 0.6rem;
+  overflow: hidden;
+}
+.card div:nth-child(1) {
+  background-color: hsl(31deg, 77%, 52%);
+}
+.card div:nth-child(2) {
+  background-color: hsl(184deg, 100%, 22%);
+}
+.card div:nth-child(3) {
+  background-color: hsl(179deg, 100%, 13%);
+}
+.card__categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3.438rem;
+}
+.card__categories__icon {
+  height: auto;
+  width: 4.75rem;
+}
+.card__categories__title {
+  color: hsl(0deg, 0%, 95%);
+}
+.card__categories__description {
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+.card__categories__button {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.125rem;
+  width: 75%;
+  border-radius: 25px;
+  margin-top: 3.125rem;
+  background: none;
+  border: none;
+  outline: none;
+  background-color: hsl(0deg, 0%, 95%);
+  mix-blend-mode: screen;
+  cursor: pointer;
+}
+.card__categories button:hover {
+  background-color: transparent;
+  color: hsl(0deg, 0%, 95%);
+  outline: 2px solid hsl(0deg, 0%, 95%);
+}
+
+@media screen and (width: 1440px) {
+  .card {
+    width: 66%;
+  }
+}
+@media screen and (width: 375px) {
+  .card {
+    margin-top: 450px;
+    padding-bottom: 40px;
+    flex-direction: column;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 85%;
+  }
+  .card__categories {
+    padding: 2.813rem;
+    gap: 25px;
+  }
+  .card__categories__button {
+    margin-top: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
