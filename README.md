@@ -25,6 +25,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 - Solution URL : https://www.frontendmentor.io/solutions/3column-preview-card-component-KwceQ2Jq1I
 - Live Site URL : https://3-column-card-yvelchrome.netlify.app
+  <br/>
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/68765fc9-c520-4fa5-8234-8de83fb4e4a9/deploy-status)](https://app.netlify.com/sites/3-column-card-yvelchrome/deploys)
 
 ## My process
 
