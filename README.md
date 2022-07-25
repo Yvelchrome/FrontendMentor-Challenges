@@ -18,12 +18,13 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Screenshots
 
-![]()
+![](https://user-images.githubusercontent.com/55931217/180799899-0faf3436-04e2-495a-8fe4-cbff90d0bcac.png)
+![](https://user-images.githubusercontent.com/55931217/180799215-688314c2-ee06-42de-86c3-4f8c1e87e405.png)
 
 ### Links
 
-- Solution URL :
-- Live Site URL :
+- Solution URL : https://www.frontendmentor.io/solutions/3column-preview-card-component-KwceQ2Jq1I
+- Live Site URL : https://3-column-card-yvelchrome.netlify.app
 
 ## My process
 
@@ -34,6 +35,20 @@ This is a solution to the [3-column preview card component challenge on Frontend
 ![SCSS](https://img.shields.io/badge/Scss-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
 ### What I learned
+
+I learned the `:nth-child()` CSS pseudo-class, I used it to change the background color of the different categories of the card.
+
+```scss
+div:nth-child(1) {
+  background-color: $bright-orange;
+}
+div:nth-child(2) {
+  background-color: $dark-cyan;
+}
+div:nth-child(3) {
+  background-color: $very-dark-cyan;
+}
+```
 
 ## Me!
 
