@@ -120,9 +120,13 @@ body,
 }
 @media screen and (width: 375px) {
   .card {
-    margin-top: 450px;
-    padding-bottom: 40px;
+    margin-top: 28.125px;
+    padding-bottom: 28.125px;
+    margin-left: 28.125px;
     flex-direction: column;
+    top: inherit;
+    left: inherit;
+    transform: inherit;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
