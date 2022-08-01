@@ -18,6 +18,8 @@ This is a solution to the [intro section with dropdown navigation challenge on F
 
 ### Screenshots
 
+![](https://user-images.githubusercontent.com/55931217/182154568-a46a6a4a-77a8-4844-8373-d2e49bc8f70a.png)
+
 ### Links
 
 - Solution URL :
