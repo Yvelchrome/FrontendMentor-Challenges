@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+  src: url("../assets/fonts/Overpass-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  src: url("../assets/fonts/Epilogue-Bold.ttf") format("truetype");
+}
+h1 {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 5rem;
+}
+
+p {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.8rem;
+}
+
+span {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+button {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+html {
+  height: 100vh;
+  background-color: hsl(0deg, 0%, 98%);
+}
+
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 3rem;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.navbar > div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+}
+.navbar__logo {
+  padding-right: 2rem;
+}
+.navbar__title {
+  color: grey;
+}
+.navbar__title--dropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+.navbar__title--dropdown img {
+  width: auto;
+  height: 6px;
+}
+.navbar__title--register {
+  outline: hsl(0deg, 0%, 41%) solid 1px;
+  outline-offset: 0.6rem;
+  border-radius: 0.1rem;
+  padding: 0 0.4rem;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 10rem;
+  gap: 8rem;
+  height: 70%;
+  transform: translate(0, 10%);
+}
+.page__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 7%;
+  height: 100%;
+  width: 60%;
+}
+.page__title {
+  color: hsl(0deg, 0%, 8%);
+}
+.page__description {
+  color: hsl(0deg, 0%, 41%);
+}
+.page__button {
+  background: none;
+  outline: 0;
+  border: 0;
+  background-color: hsl(0deg, 0%, 8%);
+  color: hsl(0deg, 0%, 98%);
+  padding: 1rem 2rem;
+  border-radius: 0.8rem;
+}
+.page__clients {
+  padding-top: 10%;
+  height: auto;
+  display: flex;
+  align-items: flex-end;
+  gap: 2.8rem;
+}
+.page__image {
+  height: 100%;
+  width: 50%;
+}
+.page__image--img {
+  width: auto;
+  height: 100%;
+}
+
+.attribution {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  color: hsl(0deg, 0%, 8%);
+}
+
+.attribution a {
+  color: hsl(0deg, 0%, 41%);
+}/*# sourceMappingURL=style.css.map */
