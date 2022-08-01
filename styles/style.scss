@@ -1,0 +1,101 @@
+@import "global.scss";
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 3rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  > div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  &__logo {
+    padding-right: 2rem;
+  }
+  &__title {
+    color: grey;
+    &--dropdown {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 6px;
+      img {
+        width: auto;
+        height: 6px;
+      }
+    }
+    &--register {
+      outline: $grey solid 1px;
+      outline-offset: 0.6rem;
+      border-radius: 0.1rem;
+      padding: 0 0.4rem;
+    }
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 10rem;
+  gap: 8rem;
+  height: 70%;
+  transform: translate(0, 10%);
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 7%;
+    height: 100%;
+    width: 60%;
+  }
+  &__title {
+    color: $black;
+  }
+  &__description {
+    color: $grey;
+  }
+  &__button {
+    background: none;
+    outline: 0;
+    border: 0;
+    background-color: $black;
+    color: $white;
+    padding: 1rem 2rem;
+    border-radius: 0.8rem;
+  }
+  &__clients {
+    padding-top: 10%;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    gap: 2.8rem;
+  }
+  &__image {
+    height: 100%;
+    width: 50%;
+    &--img {
+      width: auto;
+      height: 100%;
+    }
+  }
+}
+
+.attribution {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  color: $black;
+}
+
+.attribution a {
+  color: $grey;
+}
