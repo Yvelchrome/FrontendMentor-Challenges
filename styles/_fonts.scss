@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+  src: url("../assets/fonts/Overpass-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  src: url("../assets/fonts/Epilogue-Bold.ttf") format("truetype");
+}
+
+@mixin h1 {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 5rem;
+}
+
+@mixin p {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: calc(1.125rem * 1.6);
+}
+
+@mixin span {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+@mixin button {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+h1 {
+  @include h1;
+}
+
+p {
+  @include p;
+}
+
+span {
+  @include span;
+}
+
+button {
+  @include button;
+}
