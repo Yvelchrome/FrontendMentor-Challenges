@@ -110,7 +110,7 @@ body,
 .card__categories button:hover {
   background-color: transparent;
   color: hsl(0deg, 0%, 95%);
-  outline: 2px solid hsl(0deg, 0%, 95%);
+  border: 2px solid hsl(0deg, 0%, 95%);
 }
 
 @media screen and (width: 1440px) {
