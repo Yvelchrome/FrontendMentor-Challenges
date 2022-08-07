@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "Epilogue", sans-serif;
+  font-family: "Epilogue";
   font-weight: 500;
-  src: url("../assets/fonts/Overpass-Medium.ttf") format("truetype");
+  src: url("../assets/fonts/Epilogue-Medium.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Epilogue", sans-serif;
+  font-family: "Epilogue";
   font-weight: 700;
   src: url("../assets/fonts/Epilogue-Bold.ttf") format("truetype");
 }
@@ -22,7 +22,7 @@ p {
   line-height: 1.8rem;
 }
 
-span {
+a {
   font-family: "Epilogue", sans-serif;
   font-weight: 500;
   font-size: 0.9rem;
@@ -49,4 +49,9 @@ body,
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style-type: none;
 }/*# sourceMappingURL=global.css.map */
