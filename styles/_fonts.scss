@@ -24,7 +24,7 @@
   line-height: calc(1.125rem * 1.6);
 }
 
-@mixin span {
+@mixin a {
   font-family: "Epilogue", sans-serif;
   font-weight: 500;
   font-size: 0.9rem;
@@ -44,8 +44,8 @@ p {
   @include p;
 }
 
-span {
-  @include span;
+a {
+  @include a;
 }
 
 button {
