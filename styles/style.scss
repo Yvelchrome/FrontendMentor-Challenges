@@ -10,7 +10,8 @@
     text-decoration: none;
     color: $grey;
   }
-  > div {
+  > div,
+  > div > ul {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -19,23 +20,80 @@
   &__logo {
     padding-right: 2rem;
   }
-  &__title {
-    color: grey;
-    &--dropdown {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      gap: 6px;
-      img {
-        width: auto;
-        height: 6px;
+
+  &__dropdown {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    margin: -0.25rem 0 0 0;
+    &:hover {
+      .navbar__dropdown__submenu {
+        display: block;
+      }
+      .dropdownArrow {
+        transform: rotate(180deg);
       }
     }
+    .dropdownArrow {
+      width: auto;
+      height: 6px;
+      transition: all 0.3s ease;
+    }
+    &__submenu {
+      &--features {
+        position: absolute;
+        top: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: $white;
+        border-radius: 1rem;
+        padding: 1rem 1.5rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        line-height: 30px;
+        display: none;
+      }
+      &--company {
+        position: absolute;
+        top: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: $white;
+        border-radius: 1rem;
+        padding: 1rem 1.5rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        line-height: 30px;
+        display: none;
+      }
+      &--item {
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        color: $grey;
+        cursor: pointer;
+        img {
+          width: 16px;
+          height: auto;
+        }
+      }
+    }
+  }
+  &__title,
+  &__dropdown--title,
+  &__dropdown__subtitle {
     &--register {
-      outline: $grey solid 1px;
-      outline-offset: 0.6rem;
-      border-radius: 0.1rem;
-      padding: 0 0.4rem;
+      border: solid 2px $grey;
+      border-radius: 0.6rem;
+      padding: 0.7rem 1rem;
+      margin: -0.8rem 0 0 0;
+    }
+    &:hover {
+      filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(3612%)
+        hue-rotate(159deg) brightness(116%) contrast(84%);
     }
   }
 }
