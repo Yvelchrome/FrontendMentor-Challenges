@@ -22,22 +22,73 @@
     <div class="navbar">
       <div>
         <img class="navbar__logo" src="./assets/images/logo.svg" alt="" />
-        <div class="navbar__title--dropdown">
-          <span class="navbar__title">Features</span>
-          <img src="./assets/images/icon-arrow-down.svg" alt="" />
-        </div>
-        <div class="navbar__title--dropdown">
-          <span class="navbar__title">Company</span>
-          <img src="./assets/images/icon-arrow-down.svg" alt="" />
-        </div>
-        <span class="navbar__title">Careers</span>
-        <span class="navbar__title">About</span>
+        <ul>
+          <li class="navbar__dropdown">
+            <div class="navbar__dropdown--title">
+              <a class="navbar__title" href="#">Features</a>
+              <img
+                class="dropdownArrow"
+                src="./assets/images/icon-arrow-down.svg"
+                alt=""
+              />
+            </div>
+            <ul
+              class="navbar__dropdown__submenu navbar__dropdown__submenu--features"
+            >
+              <li class="navbar__dropdown__submenu--item">
+                <img src="./assets/images/icon-todo.svg" alt="" />
+                <a href="#">Todo List</a>
+              </li>
+              <li class="navbar__dropdown__submenu--item">
+                <img src="./assets/images/icon-calendar.svg" alt="" />
+                <a href="#">Calendar</a>
+              </li>
+              <li class="navbar__dropdown__submenu--item">
+                <img src="./assets/images/icon-reminders.svg" alt="" />
+                <a href="#">Reminders</a>
+              </li>
+              <li class="navbar__dropdown__submenu--item">
+                <img src="./assets/images/icon-planning.svg" alt="" />
+                <a href="#">Planning</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="navbar__dropdown">
+            <div class="navbar__dropdown--title">
+              <a class="navbar__title" href="#">Company</a>
+              <img
+                class="dropdownArrow"
+                src="./assets/images/icon-arrow-down.svg"
+                alt=""
+              />
+            </div>
+            <ul
+              class="navbar__dropdown__submenu navbar__dropdown__submenu--company"
+            >
+              <li class="navbar__dropdown__submenu--item">
+                <a class="navbar__dropdown__subtitle" href="#">History</a>
+              </li>
+              <li class="navbar__dropdown__submenu--item">
+                <a class="navbar__dropdown__subtitle" href="#">Our Team</a>
+              </li>
+              <li class="navbar__dropdown__submenu--item">
+                <a class="navbar__dropdown__subtitle" href="#">Blog</a>
+              </li>
+            </ul>
+          </li>
+
+          <a class="navbar__title" href="#">Careers</a>
+          <a class="navbar__title" href="#">About</a>
+        </ul>
       </div>
+      <!---->
       <div>
-        <span class="navbar__title navbar__title--login">Login</span>
-        <span class="navbar__title navbar__title--register">Register</span>
+        <a class="navbar__title navbar__title--login" href="#">Login</a>
+        <a class="navbar__title navbar__title--register" href="#">Register</a>
       </div>
     </div>
+    <!---->
     <main class="page">
       <div class="page__content">
         <h1 class="page__title">Make remote work</h1>
