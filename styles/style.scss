@@ -147,6 +147,63 @@
   }
 }
 
+.mobile-nav {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: $white;
+  width: 70%;
+  height: 100vh;
+  z-index: 2;
+  &--active {
+    display: block;
+  }
+  a {
+    text-decoration: none;
+    color: $grey;
+  }
+  &__items {
+    padding: 5rem 1.8rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    &__item {
+      .dropdown {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        .dropdownArrow {
+          width: auto;
+          height: 8px;
+        }
+      }
+      &__title {
+        font-size: 1.1rem;
+        &--login {
+          font-size: 0.9rem;
+        }
+      }
+      &--register {
+        border: solid 2px $grey;
+        border-radius: 1rem;
+        padding: 0.7rem 1rem;
+        text-align: center;
+      }
+      &--login {
+        text-align: center;
+        padding-top: 20px;
+      }
+    }
+    &--login {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}
+
 .page {
   display: flex;
   flex-direction: row;
