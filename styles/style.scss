@@ -99,6 +99,41 @@
   }
 }
 
+.hamburger {
+  display: none;
+  width: 40px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 2rem 1rem;
+  z-index: 3;
+  cursor: pointer;
+  &:hover {
+    filter: brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(3612%)
+      hue-rotate(159deg) brightness(116%) contrast(84%);
+  }
+  &__line {
+    width: 40px;
+    height: 3px;
+    background-color: $grey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease;
+    &--1 {
+      top: 0;
+    }
+    &--2 {
+      top: 50%;
+    }
+    &--3 {
+      top: 100%;
+    }
+  }
+}
+
 .page {
   display: flex;
   flex-direction: row;
