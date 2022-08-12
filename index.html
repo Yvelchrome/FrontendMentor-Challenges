@@ -37,9 +37,12 @@
       <span class="hamburger__line hamburger__line--2"></span>
       <span class="hamburger__line hamburger__line--3"></span>
     </div>
-    <div class="navbar">
+    <nav class="navbar">
       <div>
-        <a href="https://intro-section-dropdown-yvelchrome.netlify.app/">
+        <a
+          href="https://intro-section-dropdown-yvelchrome.netlify.app/"
+          aria-label="snap"
+        >
           <img class="navbar__logo" src="./assets/images/logo.svg" alt=""
         /></a>
         <div>
@@ -111,8 +114,8 @@
         <a class="navbar__title navbar__title--login" href="#">Login</a>
         <a class="navbar__title navbar__title--register" href="#">Register</a>
       </div>
-    </div>
-    <div class="mobile-nav">
+    </nav>
+    <nav class="mobile-nav">
       <ul class="mobile-nav__items">
         <li class="mobile-nav__items__item">
           <div class="dropdown dropdown--features">
@@ -173,7 +176,7 @@
         <li class="mobile-nav__items__item">
           <a class="mobile-nav__items__item__title" href="#">About</a>
         </li>
-        <div class="mobile-nav__items--login">
+        <ul class="mobile-nav__items--login">
           <li class="mobile-nav__items__item--login">
             <a
               class="mobile-nav__items__item__title mobile-nav__items__item__title--login"
@@ -188,9 +191,9 @@
               >Register</a
             >
           </li>
-        </div>
+        </ul>
       </ul>
-    </div>
+    </nav>
     <main class="page">
       <div class="page__content">
         <h1 class="page__title">Make remote work</h1>
@@ -231,8 +234,11 @@
           alt=""
           class="page__image--img page__image--desktop"
         />
-        <img src="./assets/images/image-hero-mobile.png" alt=""
-        class="page__image--img page__image--mobile"
+        <img
+          src="./assets/images/image-hero-mobile.png"
+          alt=""
+          class="page__image--img page__image--mobile"
+        />
       </div>
     </main>
 
