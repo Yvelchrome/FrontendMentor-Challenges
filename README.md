@@ -12,6 +12,7 @@ This is a solution to the [intro section with dropdown navigation challenge on F
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [What I can improve](#what-i-can-improve)
 - [Me!](#me)
 
 ## Overview
@@ -29,7 +30,7 @@ This is a solution to the [intro section with dropdown navigation challenge on F
 
 ### Links
 
-- Solution URL :
+- Solution URL : https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-hNvOknddyH
 - Live Site URL : https://intro-section-dropdown-yvelchrome.netlify.app
   <br/>
   [![Netlify Status](https://api.netlify.com/api/v1/badges/1de7d92b-3068-45fd-a697-53b206890ca6/deploy-status)](https://app.netlify.com/sites/intro-section-dropdown-yvelchrome/deploys)
