@@ -54,6 +54,36 @@ function triggerCompany() {
   });
 }
 
+function triggerMobileFeatures() {
+  const featuresButton = document.querySelector(".dropdown--features");
+  const features = document.querySelector(
+    ".mobile-nav__dropdown__submenu--features"
+  );
+  const dropdownArrow = document.querySelector(
+    ".dropdownMobileArrow--features"
+  );
+
+  featuresButton.addEventListener("click", function () {
+    features.classList.toggle("active");
+    dropdownArrow.classList.toggle("active");
+  });
+}
+
+function triggerMobileCompany() {
+  const companyButton = document.querySelector(".dropdown--company");
+  const company = document.querySelector(
+    ".mobile-nav__dropdown__submenu--company"
+  );
+  const dropdownArrow = document.querySelector(".dropdownMobileArrow--company");
+
+  companyButton.addEventListener("click", function () {
+    company.classList.toggle("active");
+    dropdownArrow.classList.toggle("active");
+  });
+}
+
 triggerHamburger();
 triggerFeatures();
 triggerCompany();
+triggerMobileFeatures();
+triggerMobileCompany();

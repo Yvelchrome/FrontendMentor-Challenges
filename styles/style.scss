@@ -157,7 +157,7 @@
   top: 0;
   right: 0;
   background-color: $white;
-  width: 70%;
+  width: 65%;
   height: 100vh;
   z-index: 2;
   &--active {
@@ -166,6 +166,29 @@
   a {
     text-decoration: none;
     color: $grey;
+  }
+  &__dropdown {
+    &__submenu {
+      display: none;
+      &.active {
+        display: block;
+        padding: 1.3rem 0 0 1.5rem;
+        line-height: 45px;
+      }
+      &--item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        img {
+          width: 1.1rem;
+          height: auto;
+        }
+        a {
+          font-size: 1.1rem;
+        }
+      }
+    }
   }
   &__items {
     padding: 5rem 1.8rem;
@@ -181,6 +204,10 @@
         .dropdownArrow {
           width: auto;
           height: 8px;
+          transition: all 0.3s ease;
+          &.active {
+            transform: rotate(180deg);
+          }
         }
       }
       &__title {
