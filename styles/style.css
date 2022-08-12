@@ -1,11 +1,13 @@
 @font-face {
   font-family: "Epilogue";
   font-weight: 500;
+  font-display: swap;
   src: url("../assets/fonts/Epilogue-Medium.ttf") format("truetype");
 }
 @font-face {
   font-family: "Epilogue";
   font-weight: 700;
+  font-display: swap;
   src: url("../assets/fonts/Epilogue-Bold.ttf") format("truetype");
 }
 h1 {
@@ -88,21 +90,23 @@ li {
   flex-direction: row;
   align-items: center;
   gap: 6px;
-}
-.navbar__dropdown:hover .navbar__dropdown__submenu {
-  display: block;
-}
-.navbar__dropdown:hover .dropdownArrow {
-  transform: rotate(180deg);
+  cursor: pointer;
 }
 .navbar__dropdown .dropdownArrow {
   width: auto;
   height: 6px;
   transition: all 0.3s ease;
 }
+.navbar__dropdown .dropdownArrow.active {
+  transform: rotate(180deg);
+}
+.navbar__dropdown__submenu {
+  cursor: default;
+}
 .navbar__dropdown__submenu--features {
   position: absolute;
   top: 70px;
+  left: 125px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -112,6 +116,9 @@ li {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   line-height: 30px;
   display: none;
+}
+.navbar__dropdown__submenu--features.active {
+  display: block;
 }
 .navbar__dropdown__submenu--company {
   position: absolute;
@@ -125,6 +132,9 @@ li {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   line-height: 30px;
   display: none;
+}
+.navbar__dropdown__submenu--company.active {
+  display: block;
 }
 .navbar__dropdown__submenu--item {
   text-decoration: none;
