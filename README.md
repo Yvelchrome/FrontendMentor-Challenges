@@ -61,8 +61,8 @@ It provides me with good projects to exercise, improve my coding skills and know
 
 **Intro section with dropdown navigation**
 
-- Status : In progress
-- Last updated : 11/08/2022
+- Status : Completed
+- Last updated : 12/08/2022
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
