@@ -1,5 +1,4 @@
-@import "fonts";
-@import "colors";
+@use "colors" as *;
 
 html {
   height: 100vh;
