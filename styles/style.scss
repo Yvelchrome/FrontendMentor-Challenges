@@ -1,20 +1,15 @@
-@import "global.scss";
+@use "./partials" as *;
 
 .navbar {
-  display: flex;
-  flex-direction: row;
+  @include flexRow(flex-start, space-between);
   padding: 2rem 3rem;
-  justify-content: space-between;
-  align-items: flex-start;
   a {
     text-decoration: none;
     color: $grey;
   }
   > div,
   > div > div > ul {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    @include flexRow(flex-start);
     gap: 40px;
   }
   &__logo {
@@ -29,9 +24,7 @@
     }
   }
   &__dropdown {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    @include flexRow(center);
     gap: 6px;
     cursor: pointer;
     .dropdownArrow {
@@ -45,18 +38,8 @@
     &__submenu {
       cursor: default;
       &--features {
-        position: absolute;
-        top: 70px;
+        @extend .navbar__dropdown__submenu--company;
         left: 125px;
-        background-color: $white;
-        border-radius: 1rem;
-        padding: 1rem 1.5rem;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        line-height: 30px;
-        display: none;
-        &.active {
-          display: block;
-        }
       }
       &--company {
         position: absolute;
@@ -72,10 +55,8 @@
         }
       }
       &--item {
+        @include flexRow(center);
         text-decoration: none;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
         gap: 15px;
         color: $grey;
         cursor: pointer;
@@ -130,6 +111,19 @@
       top: 100%;
     }
   }
+  &.active {
+    .hamburger__line {
+      &--2 {
+        opacity: 0;
+      }
+      &--1 {
+        transform: translate(-20px, 10px) rotate(45deg);
+      }
+      &--3 {
+        transform: translate(-20px, -10px) rotate(-45deg);
+      }
+    }
+  }
 }
 
 .mobile-background {
@@ -170,9 +164,7 @@
         line-height: 45px;
       }
       &--item {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+        @include flexRow(center);
         gap: 15px;
         img {
           width: 1.1rem;
@@ -187,13 +179,11 @@
   &__items {
     padding: 5rem 1.8rem;
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    @include flexCol();
     gap: 25px;
     &__item {
       .dropdown {
-        display: flex;
-        align-items: center;
+        @include flexRow(center);
         gap: 15px;
         .dropdownArrow {
           width: auto;
@@ -222,26 +212,20 @@
       }
     }
     &--login {
-      display: flex;
-      flex-direction: column;
+      @include flexCol();
       gap: 20px;
     }
   }
 }
 
 .page {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  @include flexRow(center);
   padding: 0 10rem;
   gap: 8rem;
   height: 70%;
   transform: translate(0, 10%);
   &__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
+    @include flexCol(flex-start, space-between);
     padding-top: 7%;
     height: 100%;
     width: 48%;
@@ -271,8 +255,7 @@
   &__clients {
     padding-top: 10%;
     height: auto;
-    display: flex;
-    align-items: center;
+    @include flexRow(center);
     gap: 2.8rem;
   }
   &__image {
@@ -295,21 +278,9 @@
       display: none;
     }
   }
+
   .hamburger {
     display: block;
-    &.active {
-      .hamburger__line {
-        &--2 {
-          opacity: 0;
-        }
-        &--1 {
-          transform: translate(-20px, 10px) rotate(45deg);
-        }
-        &--3 {
-          transform: translate(-20px, -10px) rotate(-45deg);
-        }
-      }
-    }
   }
 
   .page {
